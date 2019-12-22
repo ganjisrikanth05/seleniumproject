@@ -22,7 +22,7 @@ public class NaukriRegister extends Weblibrary {
 	public static WebElement txt_email;
 	
 
-	@FindBy(how = How.XPATH,  using = "//input[@type='password']")
+	@FindBy(how = How.XPATH,  using = "//input[@type='passwordi']")
 	public static WebElement txt_password;
 	
 	@FindBy(how = How.XPATH,  using = "//input[@name='number']")
