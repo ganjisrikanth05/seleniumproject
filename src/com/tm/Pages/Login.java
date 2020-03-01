@@ -42,7 +42,7 @@ public class Login extends Weblibrary {
 	
 	
 	
-	//linkedinjoin
+	//linkedinjoin page
 	@FindBy(how = How.XPATH, using = "//a[@class='nav__button-tertiary']")
 	public static WebElement btn_joinnow;
 	
