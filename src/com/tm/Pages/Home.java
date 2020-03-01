@@ -50,6 +50,7 @@ public class Home extends Weblibrary {
 		public static WebElement move_joinnow;
 		
 		//yahoo create
+		//yahoo login page
 		@FindBy(how = How.XPATH, using="//a[@id='createacc']")
 		public static WebElement btn_createnow;
 		
